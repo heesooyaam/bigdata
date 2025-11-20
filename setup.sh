@@ -16,9 +16,9 @@ download_if_missing() {
   local dest="$2"
 
   if [[ -f "$dest" ]]; then
-    echo "  [skip] $dest уже существует"
+    echo "  [skip] $dest already exists"
   else
-    echo "  [get ] $dest"
+    echo "  [download] $dest"
     curl -L "$url" -o "$dest"
   fi
 }
