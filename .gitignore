@@ -1,0 +1,6 @@
+./nifi/metrics
+./nifi/queries
+.idea/
+.DS_store
+__pycache__/
+.venv

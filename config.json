@@ -1,0 +1,8 @@
+{
+  "metrics": ["cpu"],
+  "interval": 1,
+  "output": "metrics.log",
+  "kafka_enabled": false,
+  "kafka_bootstrap_servers": "localhost:29092",
+  "kafka_topic": "system-metrics"
+}
