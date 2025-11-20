@@ -72,11 +72,11 @@ bigdata/
     apps/               # PySpark приложения
     jars/               # Hive2Dialect.jar
     shit/custom_dialect # Scala-исходники диалекта
-  scripts/              # вспомогательные скрипты
+  metrics_producer/     # сборщик метрик
   setup.sh
   run.sh
   stop.sh
-  producer.sh
+  run-spark.sh
   clean.sh
   podman-compose.yaml
   requirements.txt
